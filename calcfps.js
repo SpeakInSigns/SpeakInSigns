@@ -1,0 +1,1 @@
+let lastTimestamp=0x0,frameCount=0x0,refreshRate;function calculateRefreshRate(_0x2060f0){if(lastTimestamp){frameCount++;const _0x2f01de=_0x2060f0-lastTimestamp;if(_0x2f01de>=0x3e8){refreshRate=frameCount;return;}}else lastTimestamp=_0x2060f0;requestAnimationFrame(calculateRefreshRate);}requestAnimationFrame(calculateRefreshRate);
